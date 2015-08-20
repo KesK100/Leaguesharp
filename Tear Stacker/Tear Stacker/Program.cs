@@ -39,7 +39,7 @@ namespace Tear_Stacker
 
         private static void Game_OnGameLoad(EventArgs args)
         {
-            Game.PrintChat(name);
+            //Game.PrintChat(name);
             if (!ChampionLoader())
                 return;
 
@@ -119,6 +119,9 @@ namespace Tear_Stacker
                     return true;
                 case "Cassiopeia":
                     new Cassiopeia();
+                    return true;
+                case "Ezreal":
+                    new Ezreal();
                     return true;
                 case "Jayce":
                     new Jayce();

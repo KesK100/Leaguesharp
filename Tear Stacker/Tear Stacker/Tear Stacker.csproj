@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Champions\Anivia.cs" />
     <Compile Include="Champions\Cassiopeia.cs" />
+    <Compile Include="Champions\Ezreal.cs" />
     <Compile Include="Champions\Jayce.cs" />
     <Compile Include="Champions\Karthus.cs" />
     <Compile Include="Champions\Kogmaw.cs" />
